@@ -39,9 +39,7 @@ h3 {
 	font-size:14px;
 	color: #666;/*	letter-spacing: 2px; */
 }
-ul {
-	padding-left: 10px;
-}
+
 .Qwyrozn {
 	color: #000;
 	font-weight: bold;
@@ -65,9 +63,8 @@ ul {
 	width:230px;
 	height:60px;
 	padding: 50 50 100 50;
- align="middle";
-/*	position:relative; */
 }
+
 ul#menu_top {
 	float:left;
 	margin:0;
@@ -105,59 +102,24 @@ ul#menu_top li:hover a {
 }
 ul#menu_top li:hover {
 }
+
 /*-------BANNER-------*/
 #banner {
-	width: 100%;
-	height: 300px;
-	background-image:url(images/rcp_tlo.jpg);
+	height: 127px;
+ 	background-image:url(banner.png);
 	background-position:top;
 	background-repeat:repeat-x;
 	background-color:#2a2a2a;
-  position: relative;
-
 }
-#banner_tytul {
-  position: absolute;
-  left: 300px;
-  top: 90px;
-	background: transparent;
-	background-position:top;
-	background-repeat:none;
-}
-
-#banner .center {
-	position: relative;
-	width: 980px;
-	height: 375px;
-	margin: 0 auto;
-}
-#banner .tarcza {
-  position: absolute;
-	top:90px;
-	left:90px;
-	
-	width: 140px;
-	height: 140px;
-	background: transparent;
-    clear: both;
- 	vertical-align: middle;
-
-}
-
-
-
-
 
 /*-------CONTENT-------*/
 #content {
 	width: 100%;
 	/*	margin-bottom: 100px; */
 	background-color:#fff;
-	background-image:url(images/bg_content.png);
-	background-position:top;
-	background-repeat:repeat-x;
 	overflow: hidden;
 }
+
 #content .center {
 	width:925px;
 	height: auto;
@@ -172,6 +134,10 @@ div.content_column {
 	padding: 0px 25px 60px 30px;
 }
 
+.content_column_one ol , ul {}
+.content_column_one ol li {margin: 0  0px 3px 8px;}
+.content_column_one ul li {margin: 0  0px 0px 8px;}
+
 div.content_column_one {
 	height: auto;
 	padding: 0px 25px 0px 30px;
@@ -183,6 +149,19 @@ div.content_column_two {
 	float:left;
 	padding: 0px 25px 0px 30px;
 }
+
+.content_column_three {
+	width:248px;
+	height: 500px;
+	float:left;
+	padding: 5px 25px 10px 30px;
+	background-color:#eFeFeF;
+    box-shadow:  -2px 2px 6px #beccdd, 2px 2px 6px #aebccd;
+}
+.content_column_three p {
+   font-size:16px; 
+   margin: 12px 0 6px 0;
+}   
 
 /*-------FOOTER-------*/
 #footer {
